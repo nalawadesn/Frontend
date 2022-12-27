@@ -1,0 +1,102 @@
+.register{
+    background-image: url();
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size:cover ;
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    
+}
+.re-card{
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.us_image {
+    width: 65%;
+    height: 100%;
+    background-image: url();
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: auto;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px;
+    opacity: 0.8;
+}
+
+.us_signup{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--black);
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    opacity: 0.8;
+}
+.header{
+    font-family:cursive;
+    color:blueviolet ;
+}
+
+.text-field{
+    display: flex;
+    /* flex-direction: column; */
+}
+.usre-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-text{
+    border: none;
+    height: 40px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+.size{
+    width: 80px;
+}
+
+.size-h{
+    height: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.label{
+    color: white;
+    font-size: 1.2rem;
+
+}
+.sized-box{
+    height: 10px;
+}
+.button{
+    background-color: bisque;
+    border: none;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
